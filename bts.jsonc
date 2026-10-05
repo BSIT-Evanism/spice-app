@@ -1,0 +1,28 @@
+// Better-T-Stack project metadata
+//
+// Keep this file to use the `add` command.
+// Add addons: bunx create-better-t-stack@latest add
+//
+// Docs: https://better-t-stack.dev/docs
+// Stack Builder: https://better-t-stack.dev/new
+
+{
+  "$schema": "https://r2.better-t-stack.dev/schema.json",
+  "version": "3.44.3",
+  "createdAt": "2026-10-05T10:28:06.965Z",
+  "reproducibleCommand": "bun create better-t-stack@latest spice-app --frontend next --backend elysia --runtime node --database postgres --orm drizzle --api none --auth better-auth --payments none --addons turborepo --examples none --db-setup none --web-deploy vercel --server-deploy vercel --git --package-manager bun --install",
+  "database": "postgres",
+  "orm": "drizzle",
+  "backend": "elysia",
+  "runtime": "node",
+  "frontend": ["next"],
+  "addons": ["turborepo"],
+  "examples": [],
+  "auth": "better-auth",
+  "payments": "none",
+  "packageManager": "bun",
+  "dbSetup": "none",
+  "api": "none",
+  "webDeploy": "vercel",
+  "serverDeploy": "vercel",
+}
